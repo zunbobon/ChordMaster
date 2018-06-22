@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import CoreData
+
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var selectedChords: UITextField!
+    
+    var managedContext:NSManagedObjectContext!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

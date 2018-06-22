@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16G1314" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BasicNotes" representedClassName=".BasicNotesEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="eNameF" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eNameS" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iNameF" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iNameS" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Chord" representedClassName="Chord" syncable="YES" codeGenerationType="class">
+        <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keyNote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="Transformable" customClassName="Array" syncable="YES"/>
+    </entity>
+    <entity name="ChordBase" representedClassName="ChordBase" syncable="YES" codeGenerationType="class">
+        <attribute name="intvls" optional="YES" attributeType="Transformable" customClassName="Array" syncable="YES"/>
+        <attribute name="kName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="symbol2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BasicNotes" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Chord" positionX="-54" positionY="18" width="128" height="90"/>
+        <element name="ChordBase" positionX="-36" positionY="45" width="128" height="120"/>
+    </elements>
 </model>
