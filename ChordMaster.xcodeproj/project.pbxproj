@@ -8,23 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0930484C20DCC9FC00ECD15D /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0930484B20DCC9FC00ECD15D /* Notes.swift */; };
-		09A5114C20DCF19100CC9C7E /* BasicNotesEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A5114B20DCF19100CC9C7E /* BasicNotesEntity+CoreDataProperties.swift */; };
+		09ACFB0020E0D4AC003FAAAF /* ChordMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09ACFAFE20E0D4AC003FAAAF /* ChordMaster.xcdatamodeld */; };
 		09EFFAC120B54C43005E2021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EFFAC020B54C43005E2021 /* AppDelegate.swift */; };
 		09EFFAC320B54C43005E2021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EFFAC220B54C43005E2021 /* ViewController.swift */; };
 		09EFFAC620B54C43005E2021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EFFAC420B54C43005E2021 /* Main.storyboard */; };
-		09EFFAC920B54C43005E2021 /* ChordMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09EFFAC720B54C43005E2021 /* ChordMaster.xcdatamodeld */; };
 		09EFFACB20B54C43005E2021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09EFFACA20B54C43005E2021 /* Assets.xcassets */; };
 		09EFFACE20B54C43005E2021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EFFACC20B54C43005E2021 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0930484B20DCC9FC00ECD15D /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
-		09A5114B20DCF19100CC9C7E /* BasicNotesEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BasicNotesEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		09ACFAFF20E0D4AC003FAAAF /* ChordMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChordMaster.xcdatamodel; sourceTree = "<group>"; };
 		09EFFABD20B54C43005E2021 /* ChordMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChordMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EFFAC020B54C43005E2021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09EFFAC220B54C43005E2021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09EFFAC520B54C43005E2021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09EFFAC820B54C43005E2021 /* ChordMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChordMaster.xcdatamodel; sourceTree = "<group>"; };
 		09EFFACA20B54C43005E2021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09EFFACD20B54C43005E2021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09EFFACF20B54C43005E2021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 		09EFFAB420B54C43005E2021 = {
 			isa = PBXGroup;
 			children = (
-				09A5114B20DCF19100CC9C7E /* BasicNotesEntity+CoreDataProperties.swift */,
 				09EFFABF20B54C43005E2021 /* ChordMaster */,
 				09EFFABE20B54C43005E2021 /* Products */,
 			);
@@ -67,8 +64,8 @@
 				09EFFAC420B54C43005E2021 /* Main.storyboard */,
 				09EFFACA20B54C43005E2021 /* Assets.xcassets */,
 				09EFFACC20B54C43005E2021 /* LaunchScreen.storyboard */,
+				09ACFAFE20E0D4AC003FAAAF /* ChordMaster.xcdatamodeld */,
 				09EFFACF20B54C43005E2021 /* Info.plist */,
-				09EFFAC720B54C43005E2021 /* ChordMaster.xcdatamodeld */,
 			);
 			path = ChordMaster;
 			sourceTree = "<group>";
@@ -145,9 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09EFFAC920B54C43005E2021 /* ChordMaster.xcdatamodeld in Sources */,
+				09ACFB0020E0D4AC003FAAAF /* ChordMaster.xcdatamodeld in Sources */,
 				0930484C20DCC9FC00ECD15D /* Notes.swift in Sources */,
-				09A5114C20DCF19100CC9C7E /* BasicNotesEntity+CoreDataProperties.swift in Sources */,
 				09EFFAC320B54C43005E2021 /* ViewController.swift in Sources */,
 				09EFFAC120B54C43005E2021 /* AppDelegate.swift in Sources */,
 			);
@@ -314,12 +310,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		09EFFAC720B54C43005E2021 /* ChordMaster.xcdatamodeld */ = {
+		09ACFAFE20E0D4AC003FAAAF /* ChordMaster.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				09EFFAC820B54C43005E2021 /* ChordMaster.xcdatamodel */,
+				09ACFAFF20E0D4AC003FAAAF /* ChordMaster.xcdatamodel */,
 			);
-			currentVersion = 09EFFAC820B54C43005E2021 /* ChordMaster.xcdatamodel */;
+			currentVersion = 09ACFAFF20E0D4AC003FAAAF /* ChordMaster.xcdatamodel */;
 			path = ChordMaster.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

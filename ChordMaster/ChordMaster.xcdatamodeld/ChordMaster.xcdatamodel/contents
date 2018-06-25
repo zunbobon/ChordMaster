@@ -10,6 +10,8 @@
         <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="keyNote" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="notes" optional="YES" attributeType="Transformable" customClassName="Array" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ChordBase" syncable="YES"/>
+        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BasicNotes" syncable="YES"/>
     </entity>
     <entity name="ChordBase" representedClassName="ChordBase" syncable="YES" codeGenerationType="class">
         <attribute name="intvls" optional="YES" attributeType="Transformable" customClassName="Array" syncable="YES"/>
@@ -20,7 +22,7 @@
     </entity>
     <elements>
         <element name="BasicNotes" positionX="-63" positionY="-18" width="128" height="105"/>
-        <element name="Chord" positionX="-54" positionY="18" width="128" height="90"/>
+        <element name="Chord" positionX="-54" positionY="18" width="128" height="120"/>
         <element name="ChordBase" positionX="-36" positionY="45" width="128" height="120"/>
     </elements>
 </model>
