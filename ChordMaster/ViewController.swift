@@ -18,7 +18,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        let appdelegate = UIApplication.shared.delegate as! AppDelegate
+        let managedObjectContext = appdelegate.persistentContainer.viewContext
         
         
     }

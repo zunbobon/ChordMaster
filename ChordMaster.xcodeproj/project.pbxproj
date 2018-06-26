@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		0930484C20DCC9FC00ECD15D /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0930484B20DCC9FC00ECD15D /* Notes.swift */; };
 		09ACFB0020E0D4AC003FAAAF /* ChordMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09ACFAFE20E0D4AC003FAAAF /* ChordMaster.xcdatamodeld */; };
+		09E75E6220E1EED5002454FF /* ChordBase+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E75E6020E1EED5002454FF /* ChordBase+CoreDataClass.swift */; };
+		09E75E6320E1EED5002454FF /* ChordBase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E75E6120E1EED5002454FF /* ChordBase+CoreDataProperties.swift */; };
+		09E75E6620E1EF11002454FF /* BasicNotesEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E75E6420E1EF11002454FF /* BasicNotesEntity+CoreDataClass.swift */; };
+		09E75E6720E1EF11002454FF /* BasicNotesEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E75E6520E1EF11002454FF /* BasicNotesEntity+CoreDataProperties.swift */; };
+		09E75E6A20E1EF43002454FF /* Chord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E75E6820E1EF43002454FF /* Chord+CoreDataClass.swift */; };
+		09E75E6B20E1EF43002454FF /* Chord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E75E6920E1EF43002454FF /* Chord+CoreDataProperties.swift */; };
 		09EFFAC120B54C43005E2021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EFFAC020B54C43005E2021 /* AppDelegate.swift */; };
 		09EFFAC320B54C43005E2021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EFFAC220B54C43005E2021 /* ViewController.swift */; };
 		09EFFAC620B54C43005E2021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EFFAC420B54C43005E2021 /* Main.storyboard */; };
@@ -19,6 +25,12 @@
 /* Begin PBXFileReference section */
 		0930484B20DCC9FC00ECD15D /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		09ACFAFF20E0D4AC003FAAAF /* ChordMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChordMaster.xcdatamodel; sourceTree = "<group>"; };
+		09E75E6020E1EED5002454FF /* ChordBase+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChordBase+CoreDataClass.swift"; sourceTree = "<group>"; };
+		09E75E6120E1EED5002454FF /* ChordBase+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChordBase+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		09E75E6420E1EF11002454FF /* BasicNotesEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BasicNotesEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		09E75E6520E1EF11002454FF /* BasicNotesEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BasicNotesEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		09E75E6820E1EF43002454FF /* Chord+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Chord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		09E75E6920E1EF43002454FF /* Chord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Chord+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		09EFFABD20B54C43005E2021 /* ChordMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChordMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EFFAC020B54C43005E2021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09EFFAC220B54C43005E2021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +54,12 @@
 		09EFFAB420B54C43005E2021 = {
 			isa = PBXGroup;
 			children = (
+				09E75E6820E1EF43002454FF /* Chord+CoreDataClass.swift */,
+				09E75E6920E1EF43002454FF /* Chord+CoreDataProperties.swift */,
+				09E75E6420E1EF11002454FF /* BasicNotesEntity+CoreDataClass.swift */,
+				09E75E6520E1EF11002454FF /* BasicNotesEntity+CoreDataProperties.swift */,
+				09E75E6020E1EED5002454FF /* ChordBase+CoreDataClass.swift */,
+				09E75E6120E1EED5002454FF /* ChordBase+CoreDataProperties.swift */,
 				09EFFABF20B54C43005E2021 /* ChordMaster */,
 				09EFFABE20B54C43005E2021 /* Products */,
 			);
@@ -143,9 +161,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				09ACFB0020E0D4AC003FAAAF /* ChordMaster.xcdatamodeld in Sources */,
+				09E75E6320E1EED5002454FF /* ChordBase+CoreDataProperties.swift in Sources */,
 				0930484C20DCC9FC00ECD15D /* Notes.swift in Sources */,
 				09EFFAC320B54C43005E2021 /* ViewController.swift in Sources */,
+				09E75E6220E1EED5002454FF /* ChordBase+CoreDataClass.swift in Sources */,
+				09E75E6620E1EF11002454FF /* BasicNotesEntity+CoreDataClass.swift in Sources */,
+				09E75E6B20E1EF43002454FF /* Chord+CoreDataProperties.swift in Sources */,
+				09E75E6A20E1EF43002454FF /* Chord+CoreDataClass.swift in Sources */,
 				09EFFAC120B54C43005E2021 /* AppDelegate.swift in Sources */,
+				09E75E6720E1EF11002454FF /* BasicNotesEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

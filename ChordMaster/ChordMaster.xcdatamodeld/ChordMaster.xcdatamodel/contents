@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16G1314" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="BasicNotes" representedClassName=".BasicNotesEntity" syncable="YES" codeGenerationType="class">
+    <entity name="BasicNotes" representedClassName=".BasicNotesEntity" syncable="YES">
         <attribute name="eNameF" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="eNameS" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="iNameF" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="iNameS" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chord" inverseName="newRelationship1" inverseEntity="Chord" syncable="YES"/>
     </entity>
-    <entity name="Chord" representedClassName="Chord" syncable="YES" codeGenerationType="class">
+    <entity name="Chord" representedClassName="Chord" syncable="YES">
         <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="keyNote" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="notes" optional="YES" attributeType="Transformable" customClassName="Array" syncable="YES"/>
-        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ChordBase" syncable="YES"/>
-        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BasicNotes" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ChordBase" inverseName="newRelationship" inverseEntity="ChordBase" syncable="YES"/>
+        <relationship name="newRelationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BasicNotes" inverseName="newRelationship" inverseEntity="BasicNotes" syncable="YES"/>
     </entity>
-    <entity name="ChordBase" representedClassName="ChordBase" syncable="YES" codeGenerationType="class">
+    <entity name="ChordBase" representedClassName="ChordBase" syncable="YES">
+        <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="intvls" optional="YES" attributeType="Transformable" customClassName="Array" syncable="YES"/>
         <attribute name="kName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="symbol2" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chord" inverseName="newRelationship" inverseEntity="Chord" syncable="YES"/>
     </entity>
     <elements>
-        <element name="BasicNotes" positionX="-63" positionY="-18" width="128" height="105"/>
-        <element name="Chord" positionX="-54" positionY="18" width="128" height="120"/>
-        <element name="ChordBase" positionX="-36" positionY="45" width="128" height="120"/>
+        <element name="BasicNotes" positionX="-2000" positionY="-405" width="128" height="118"/>
+        <element name="Chord" positionX="-1829" positionY="-99" width="128" height="118"/>
+        <element name="ChordBase" positionX="-2018" positionY="-84" width="128" height="133"/>
     </elements>
 </model>

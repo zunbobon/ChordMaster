@@ -1,5 +1,5 @@
 //
-//  BasicNotesEntity+CoreDataClass.swift
+//  Chord+CoreDataClass.swift
 //  ChordMaster
 //
 //  Created by 田村 克彦 on 2018/06/26.
@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-
-public class BasicNotesEntity: NSManagedObject {
+@objc(Chord)
+public class Chord: NSManagedObject {
 
 }
